@@ -1,2 +1,73 @@
-./*Coursera VJW7VI6QKLER
-./*Coursera EYBLYPTELZAS
+# Coursera verification tokens
+Coursera VJW7VI6QKLER
+Coursera EYBLYPTELZAS
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Data & models (often large / binary) ─────────────────────────────────────
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mat
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+data/raw/
+data/processed/
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor / IDE ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs & temp files ────────────────────────────────────────────────────────
+*.log
+*.tmp
+tmp/
+logs/
+
+# ── Secrets / credentials ─────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+secrets.yaml
+secrets.yml
